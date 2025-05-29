@@ -21,7 +21,7 @@ This project provides a lightweight, file-based JSON management system for stori
 
 .
 ├── data/
-│ └── private_<username>.json # Stored user-specific data files
+└── private_<username>.json # Stored user-specific data files
 ├── main.py # Core logic and execution
 └── README.md # Documentation
 
