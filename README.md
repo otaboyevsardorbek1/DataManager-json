@@ -42,31 +42,6 @@ This project provides a lightweight, file-based JSON management system for stori
 
 ## 🧠 Code Breakdown
 
-### `data_files_path(username)`
-Returns the expected path of the JSON file for a given GitHub username:
-```python
-return f"data/private_{username}.json"
-load_json(filepath)
-Loads JSON data from the given file, or returns None if file doesn’t exist.
-
-save_json(filepath, data)
-Writes data to the file. Creates parent folder (data/) if needed.
-
-merge_and_update(username, new_data)
-This is the core function:
-
-Loads old data.
-
-Merges it with new data.
-
-Detects and prints:
-
-Modified fields
-
-Newly added fields
-
-Saves the result to file.
-
 ▶️ Usage Example
 Run the script with:
 python main.py
